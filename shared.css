@@ -46,14 +46,26 @@ header a{
     padding: 3px;
 }
 
-header a:hover{
+header li a:hover{
     color: white;
     background-color: rgb(70, 92, 89);
     border-radius: 8px;
 }
 
+/* FOOTER */
+footer{
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+}
 
-
-
-
-
+footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+footer li{
+    margin: 10px 45px;
+}
+footer img{
+    width: 80px;
+    height: 80px;
+}

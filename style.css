@@ -47,12 +47,17 @@
     background-color: rgb(70, 80, 89);
 }
 
+#highlights {
+    padding: 15px;
+    background: linear-gradient(180deg, #77867F, #B7B4A9);
+}
+
 /* highlights */
 #highlights h2{
     text-transform: uppercase;
     text-align: center;
     font-size: 40px;
-    color: rgb(156, 140, 109);
+    color: rgb(75, 72, 72);
     margin: 25px 0px;
 }
 #destinations{
