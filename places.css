@@ -1,10 +1,69 @@
-body{
-    background: linear-gradient(30deg, #465957,#2D3937);
+body {
+    background: linear-gradient(30deg, #465957, #2D3937);
+    color: rgb(75, 72, 72);
 }
-header{
+
+header {
     position: static;
 }
-main li img{
+
+main ul {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 15px; 
+}
+
+li:nth-of-type(3)
+{
+    grid-column: 1 / span 2;
+}
+
+li:nth-of-type(6)
+{
+    grid-column: 1 / span 2;
+}
+
+main li {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rbga(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px 10px;
+}
+
+main li img {
     width: 300px;
-    height: 250px;
+    height: 275px;
+    /* The object-fit CSS property sets how the content of a replaced element, such as an <img> or <video> , should be resized to fit its container */
+    object-fit: cover;
+}
+
+.item-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-content h2{
+    margin:0;
+}
+
+.actions{
+    text-align: right;
+}
+
+.actions a{
+    text-decoration: none;
+    padding: 5px;
+    color: #9C8C6D;
+}
+
+.actions a:hover{
+    background-color: #f3ebe5;
+    border-radius: 5px;
 }
